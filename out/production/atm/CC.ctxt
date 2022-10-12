@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CC
+comment0.text=\r\n\ <h2>\ CC\ (currency\ converter)\ class\ </h2>\r\n\ @author\ Minas\ Fakhori\r\n\ This\ class\ creates\ the\ seconds\ window\ for\ the\ currency\ conversion\r\n\ This\ creates\ and\ manages\ the\ GUI\ and\ extends\ View\ so\ I\ don't\ have\ to\ reassign\ all\ the\ variables\ that\ I\ assigned\ in\ view\ \r\n
+comment1.params=
+comment1.target=void\ ccWindow()
+comment1.text=\r\n\ This\ method\ has\ everything\ to\ do\ with\ this\ window\ its\ similar\ to\ the\ view\ \ \ \ \ \r\n
+comment2.params=
+comment2.target=void\ update()
+numComments=3

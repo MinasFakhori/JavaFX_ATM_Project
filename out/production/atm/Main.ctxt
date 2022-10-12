@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ <h1>Introduction\ to\ Programming\ CI401\ assignment,\ ATM\ project</h1>\r\n\ <h2>Main\ Class</h2>\r\n\ @author\ Minas\ Fakhori\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=window
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ This\ is\ the\ thing\ that\ puts\ everything\ together.\r\n\ It\ starts\ the\ window.\r\n\ @param\ window\ this\ open\ the\ main\ GUI\ window\ \r\n\ @throws\ java.io.IOException\ this\ is\ done\ incase\ a\ failure\ in\ Input\ &\ Output,\ for\ this\ program\ it\ throws\ a\ failure\ if\ it\ dosn't\ finds\ window\ (output)\r\n
+numComments=3

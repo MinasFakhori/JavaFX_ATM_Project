@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\r\n\ OOP\ standards\ are\ that\ you\ have\ to\ use\ encapsulation,\ this\ is\ good\ as\ it\ stops\ other\ classes\ from\ accessing\ the\ private\ fields\ without\ permission.\r\n\ You\ can\ controll\ if\ they\ have\ permission\ to\ read\ only\ or\ to\ write\ only,\ (using\ setters\ and\ getters).\r\n\ This\ also\ makes\ the\ code\ more\ robust.\r\n\ \r\n
+comment1.params=a\ p\ b\ o\ dob\ wdLimmit
+comment1.target=BankAccount(int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\nThis\ constructor\ takes\ in\ a\ few\ parameters\ and\ sets\ them\ as\ class\ attributes.\ This\ is\ done\ because\ after\ the\ method\ runs\ the\ parameters\ disappears\ so\ this\ stores\ it\ in\ the\ class\ variable\ so\ it\ dosnt\ disappear.\ \r\n'this'\ is\ used\ to\ speacify\ that\ we\ want\ the\ class\ variables,\ to\ make\ java\ know\ what\ variable\ I\ am\ talking\ about.\r\nTo\ use\ this\ call\ this\ constructor\ and\ fill\ in\ the\ required\ values.\r\n\ @see\ <a\ href\="https\://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html">Constructors\ docs\ oracle</a>\r\n\ @param\ a\ (int)\ this\ is\ the\ account\ number\r\n\ @param?p\ (int)\ this\ is\ the\ account\ password\r\n\ @param\ b\ (int)\ this\ is\ the\ balance\r\n\ @param\ o\ (int)\ this\ is\ the\ overdraft\r\n\ @param\ dob\ (int)\ this\ is\ the\ date\ of\ birth?\r\n\ \ \ \ \ \r\n
+comment10.params=password
+comment10.target=void\ setAccPasswd(int)
+comment10.text=\r\n\ Setter\ -\ this\ method\ sets\ the\ password\r\n\ @param\ password\ (int)\r\n
+comment11.params=
+comment11.target=int\ getDob()
+comment11.text=\r\n\ Getter\ -\ this\ method\ gets\ the\ dob\r\n\ @return\ dob\r\n
+comment2.params=amount
+comment2.target=boolean\ withdraw(int)
+comment2.text=\r\n\ This\ returns\ a\ boolean\ to\ see\ if\ the\ amount\ can\ be\ covered\ by\ the\ overDraft\ and\ the\ balance,\ and\ if\ amount\ is\ more\ than\ 0,\ it\ returns\ true\ and\ withdraws\ the\ money\ .\r\n\ This\ also\ returns\ flase\ if\ the\ amount\ is\ less\ than\ 0.\r\n@param\ amount\ (int)\ the\ amount\ the\ user\ puts\ in\r\n@return\ true/false\r\n
+comment3.params=amount
+comment3.target=boolean\ deposit(int)
+comment3.text=\r\n\ This\ method\ returns\ a\ boolean\ to\ see\ if\ the\ amount\ is\ more\ than\ 0,\ if\ it\ is\ it\ returns\ true\ and\ depsit\ money\ .\r\n\ This\ will\ returns\ flase\ if\ the\ amount\ is\ less\ than\ 0.\r\n@param\ amount\ (int)\ the\ amount\ the\ user\ puts\ in\r\n@return\ true/false\r\n
+comment4.params=
+comment4.target=int\ getBalance()
+comment4.text=\r\n\ This\ returns\ the\ balance\ when\ the\ method\ is\ called\r\n\ @return\ balance\ \r\n
+comment5.params=
+comment5.target=int\ getWdLimmit()
+comment5.text=\r\n\ This\ will\ get\ the\ wdLimmit\r\n\ \ @return\ wdLimmit\r\n
+comment6.params=wdLimmit
+comment6.target=void\ setWdLimmit(int)
+comment6.text=\r\n\ This\ will\ allow\ other\ methods\ to\ set\ the\ wdLimmit\r\n\ param\ wdLimmit\ (int)\r\n
+comment7.params=
+comment7.target=int\ getOverDraft()
+comment7.text=\r\n\ This\ returns\ the\ overdraft\ when\ the\ method\ is\ called\r\n\ @return\ overdraft\r\n
+comment8.params=
+comment8.target=int\ getAccNumber()
+comment8.text=\r\n\ Getter\ -\ this\ method\ gets\ the\ account\ number\ \r\n\ return\ accNumber\r\n
+comment9.params=
+comment9.target=int\ getAccPasswd()
+comment9.text=\r\n\ Getter\ -\ this\ method\ gets\ the\ password\r\n\ return\ accPasswd\r\n
+numComments=12

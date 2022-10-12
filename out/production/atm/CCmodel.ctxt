@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CCmodel
+comment0.text=\r\n\ <h2>\ CCmodel\ class\ (currency\ converter\ model)</h2>\r\n\ @author?Minas\ Fakhori\r\n\ This\ class\ has\ everything\ to\ do\ with\ the\ second\ window\ and\ is\ the\ actual\ actions\ that\ happen\ when\ the\ methods\ are\ called.\r\n
+comment1.params=
+comment1.target=void\ newDisplay()
+comment1.text=\r\n\ This\ method\ clears\ the\ display\ and\ sets\ a\ message\ to\ the\ user\ so\ they\ know\ what\ to\ do.\r\n
+comment2.params=
+comment2.target=void\ eth()
+comment2.text=\r\n\ This\ method\ gets\ the\ price\ of\ ethereum\ (at\ the\ time\ I\ made\ this)\ and\ say\ what\ it\ would\ be\ in\ gbp.\ \r\n\ Two\ ways\ I\ can\ improve\ this\ is\:\r\n\ 1)By\ getting\ the\ live\ price\ of\ ethereum\ <br>\r\n\ 2)\ By\ letting\ them\ conver\ the\ other\ way\ around\r\n
+comment3.params=
+comment3.target=void\ btc()
+comment3.text=\r\n\ The\ btc\ method\ is\ the\ same\ as\ the\ eth\ method\ but\ gets\ the\ price\ of\ Bitcoin\ (at\ the\ time\ I\ made\ this)\ and\ say\ what\ it\ would\ be\ in\ gbp.\r\n
+comment4.params=
+comment4.target=void\ usd()
+comment4.text=\r\n\ The\ usd\ method\ is\ the\ same\ as\ the\ eth\ method\ but\ gets\ the\ price\ of\ usd\ (at\ the\ time\ I\ made\ this)\ and\ say\ what\ it\ would\ be\ in\ gbp.\r\n
+comment5.params=
+comment5.target=void\ eur()
+comment5.text=\r\n\ The\ eur\ method\ is\ the\ same\ as\ the\ eth\ method\ but\ gets\ the\ price\ of\ eur\ (at\ the\ time\ I\ made\ this)\ and\ say\ what\ it\ would\ be\ in\ gbp.\r\n
+comment6.params=
+comment6.target=void\ toTheMoon()
+comment6.text=\r\n\ The\ toTheMoon\ method\ adds\ a\ sounds\ that\ says\ to\ the\ moon\ this\ was\ the\ same\ as\ the\ other\ AudioClip\ I\ just\ changed\ the\ file\ \r\n
+numComments=7

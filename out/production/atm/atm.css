@@ -1,0 +1,83 @@
+#Layout {
+    -fx-grid-lines-visible: false;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-padding: 10;
+    -fx-background-color: #0e0e10;
+    -fx-alignment: center ;
+}
+
+#Layout1{
+     -fx-grid-lines-visible: false;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-alignment: center ;
+}
+
+
+#Label , .label{
+     -fx-text-fill: white;
+     -fx-alignment-text: center ;
+    -fx-font: bold 30pt "courier new";
+}
+
+#Label1{
+     -fx-text-fill: black;
+     -fx-alignment-text: center ;
+    -fx-font: bold 30pt "courier new";
+}
+
+
+
+
+
+
+#Buttons {
+    -fx-pref-columns: 6;
+    -fx-pref-tile-width: 75;
+    -fx-hgap: 5;
+    -fx-vgap: 5;    
+}
+
+
+
+
+
+.button{
+    -fx-font: bold 16pt "courier new";
+    -fx-background-color:#89c4f4;
+    -fx-min-width: 75px;
+    -fx-max-width: 75px;
+}
+
+
+
+
+#logout{
+    -fx-background-color: red;
+     -fx-font: bold 10pt "courier new";
+     -fx-min-width: 75px;
+    -fx-max-width: 90px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+}
+
+
+#enter{
+    -fx-min-width: 120px;
+    -fx-max-width: 120px;
+    -fx-background-color: #00BC40;
+    -fx-vgap: 10;
+    -fx-font: bold 16pt "courier new";
+    
+}
+
+
+
+
+
+
+
+

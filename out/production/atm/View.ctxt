@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=View
+comment0.text=\r\n\ <h2>View\ Class</h2>\ \r\n\ @author\ Minas\ Fakhori\ <br>\r\n\ This\ class\ creates\ and\ manages\ how\ the\ first\ window\ will\ look\ like.\ <br>\r\n\ This\ has\ no\ knowlage\ of\ the\ bank.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getEmoji()
+comment1.text=\r\n\ I\ had\ to\ use\ getter\ because\ I\ wanted\ to\ access\ this\ variable\ in\ other\ classes,\ and\ it\ was\ private\ to\ follow\ with\ OOP(encapsulation)\ and\ to\ be\ more\ secure.\r\n
+comment2.params=
+comment2.target=View()
+comment3.params=window
+comment3.target=void\ start(javafx.stage.Stage)
+comment3.text=\ start\ is\ called\ from\ Main,\ to\ start\ the\ GUI\ up\r\n\ Note\ that\ it\ is\ important\ to\ create\ controls\ etc\ here\ and\r\n\ not\ in\ the\ constructor\ (or\ as\ initialisations\ to\ instance\ variables),\r\n\ because\ we\ need\ things\ to\ be\ initialised\ in\ the\ right\ order\r\n\ @throws\ java.io.IOException\ \r\n
+comment4.params=event
+comment4.target=void\ buttonClicked(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ update()
+numComments=6

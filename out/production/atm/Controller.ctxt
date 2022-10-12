@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\r\n\ <h2>Controller\ class</h2>\r\n\ This\ is\ the\ middle\ man\ between\ view\ and\ model.\r\n\ This\ class\ gets\ input\ from\ view\ and\ calls\ a\ method\ in\ model.\r\n\ @author\ Minas\ Fakhori\r\n
+comment1.params=
+comment1.target=Controller()
+comment2.params=
+comment2.target=boolean\ getMode()
+comment3.params=mode
+comment3.target=void\ setMode(boolean)
+comment4.params=
+comment4.target=boolean\ getHelp()
+comment5.params=help
+comment5.target=void\ setHelp(boolean)
+comment6.params=
+comment6.target=boolean\ getCcB()
+comment7.params=action
+comment7.target=void\ process(java.lang.String)
+comment7.text=\r\n\ This\ is\ a\ massive\ switch\ statment\ that\ runs\ methods\ in\ the\ model\ and\ the\ cc\ model\ depending\ on\ what\ button\ is\ clicked\r\n\ @param\ action\r\n\ @throws\ java.io.IOException\ \r\n
+numComments=8
